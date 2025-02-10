@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Suraj's Portfolio</title>
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Suraj Nahak</div>
+            <button class="mobile-menu-btn">☰</button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blogs</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-content">
+                <img src="img/su2.jpg" alt="Profile Picture" />
+                <div class="text">
+                    <p>
+                        I am <strong>Suraj Nahak</strong>, a passionate <strong>Machine Learning Engineer</strong> with
+                        expertise in
+                        <span class="highlight">Data Science, Artificial Intelligence, and Deep Learning</span>.
+                        I specialize in building intelligent solutions that transform raw data into valuable insights.
+                    </p>
+                    <p>
+                        My technical toolkit includes <strong>Python, TensorFlow, PyTorch, Scikit-Learn, and
+                            Pandas</strong>.
+                        With a deep understanding of ML algorithms, I have developed impactful projects such as:
+                    </p>
+                    <ul>
+                        <li>🔹 An <strong>ML Preprocessor CLI</strong> for automating data preprocessing workflows.</li>
+                        <li>🔹 A <strong>Chronic Kidney Disease Prediction Model</strong> for early medical diagnosis.
+                        </li>
+                        <li>🔹 A <strong>Seoul Bike Price Prediction System</strong> using time-series forecasting.</li>
+                    </ul>
+                    <p>
+                        With a relentless curiosity and a drive for innovation, I aim to bridge the gap between AI
+                        research and real-world applications.
+                        My focus is on creating scalable, efficient, and ethical AI systems that make a difference.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Interested in working together? Drop me a message!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Suraj Nahak. All rights reserved.</p>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Initialize EmailJS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            emailjs.init("k4V4dprwAZKFm3fbL"); // Your Public Key
+        });
+    </script>
+
+    <!-- Main JavaScript File -->
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
